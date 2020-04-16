@@ -543,11 +543,15 @@ border: none;outline: none;
         display: flex;
     }
     nav ul li a{
-        margin: 20px;
-        font-size: 13px;
+        margin: 10px;
+        font-size: 12px;
     }
     .nav-flex div i{
         font-size: 20px;
+    }
+
+    .logo{
+        font-size: 15px;
     }
       
       .container-text p{
