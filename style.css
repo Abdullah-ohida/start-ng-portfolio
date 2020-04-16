@@ -546,6 +546,10 @@ border: none;outline: none;
         margin: 10px;
         font-size: 12px;
     }
+
+    .nav-flex{
+        display: none;
+    }
     .nav-flex div i{
         font-size: 20px;
     }
