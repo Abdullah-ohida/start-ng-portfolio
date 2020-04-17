@@ -319,7 +319,7 @@ form{
     padding: 25px;
  }
 
- input[type=text], select, textarea {
+ input[type=text], input[type=email], .datalist, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -331,6 +331,7 @@ form{
     outline: none;
     border: none;
     box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
+
   }
   
 .sub {
@@ -342,7 +343,7 @@ form{
     cursor: pointer;
   }
   
-  input[type=text], textarea::placeholder{
+  input[type=text],input[type=email], .datalist, textarea::placeholder{
       font-size: 15px;
       color: rgb(88, 84, 88);
   }
