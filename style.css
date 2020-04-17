@@ -133,8 +133,8 @@ nav ul li a{
  }
 
  .about-container{
-     width: 85%;
-     height: 450px;
+     width: 90%;
+     height: auto;
      box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.5);
      background-color: white;
      border-radius: 20px;
@@ -535,6 +535,10 @@ border: none;outline: none;
 }
 
 @media screen and (max-width:500px){
+    section{
+        height:80vh;
+    }
+    
     nav{
         height: 50px;
         padding: 0 1em; 
@@ -543,15 +547,16 @@ border: none;outline: none;
         display: flex;
     }
     nav ul li a{
-        margin: 10px;
+        margin: 20px;
         font-size: 12px;
+        padding: 0 1em;
     }
 
     .nav-flex{
         display: none;
     }
     .nav-flex div i{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .logo{
@@ -573,16 +578,18 @@ border: none;outline: none;
       }
      
       .model{
-          height: 250px;
-          margin: 5em auto 1em;
+          height: 200px;
+          margin: 6em 2em 1em  0;
           padding: .5em;
       }
  .about-container{
         width: auto;
-        height: 400px;
+       height: auto;
         display: block;
-        margin: -6em 1em 2em;
-        padding: 20px 30px 10px;
+        margin: 2em .5em;
+        padding: 20px 20px 10px;
+        max-width: content;
+        overflow: hidden;
     }
     .about-container img{
         display: none;
@@ -598,6 +605,7 @@ border: none;outline: none;
     }
     .about-text p:not(.same) {
       color: rgb(0, 0, 0);
+      padding: 5px 0;
    }
 .box-top .text{
        text-align: center;
@@ -634,7 +642,7 @@ padding: 2em 0 2em;
 }
 
 .contact h1{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .font{
